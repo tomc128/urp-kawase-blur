@@ -5,13 +5,20 @@ This is a experimental RenderFeature implementation aiming to show multiple thin
 * how to render multiple passes using CommandBuffers in RenderFeatures
 * how to do a simple yet effective blur, based on the Kawase blur as described in this [article](https://software.intel.com/en-us/blogs/2014/07/15/an-investigation-of-fast-real-time-gpu-based-image-blur-algorithms).
 
-Features:
+
+### Features
 * flexible downscaling
 * variable number of blur passes
 * store result in a temporary texture of blit to the current framebuffer
-* simple milky-glass demo
+* simple demo scene and materials
 
-This is how it looks.
-![This is how it looks if the image appears.](blur.png)
 
-Developed with Unity 2019.3
+### Download
+Download this project using the releases tab. The unitypackage contains all the files needed to setup the blur effect. The demo scene is not included.
+
+
+### Demo scene
+![A demo scene showing the effect in action](sample-blur.png)
+
+Blur originally developed with Unity 2019.3.
+Demo scene & project restructure done with Unity 2020.1.
