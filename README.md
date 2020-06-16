@@ -9,7 +9,6 @@ This is a experimental RenderFeature implementation aiming to show multiple thin
 ### Features
 * flexible downscaling
 * variable number of blur passes
-* store result in a temporary texture of blit to the current framebuffer
 * simple demo scene and materials
 
 
@@ -28,6 +27,10 @@ This blur will work for both 3D objects and UI images. Please note however this 
 
 ### Demo scene
 ![A demo scene showing the effect in action](sample-blur.png)
+
+
+### Masked shaders
+Masked shader variants can be used to blur UI elements with rounded corners properly. To do this, simply attach a material using the masked shader onto a UI image component, and change the mask to an image with transparency. If the image has been sliced to allow for resizing, also set the sprite on the image component to the same mask.
 
 
 Blur originally developed with Unity 2019.3.
