@@ -1,15 +1,20 @@
-## Universal Render Pipeline Kawase Blur Renderer Extension
+## Kawase Blur
+### Renderer Extension for Universal Render Pipeline
 
-This is a experimental RenderFeature implementation aiming to show multiple things:
-* post processing "like" effect in URP using ScriptableRenderFeatures
-* how to render multiple passes using CommandBuffers in RenderFeatures
-* how to do a simple yet effective blur, based on the Kawase blur as described in this [article](https://software.intel.com/en-us/blogs/2014/07/15/an-investigation-of-fast-real-time-gpu-based-image-blur-algorithms).
+This is a experimental RenderFeature implementation that:
+* implements a post-processing-like effect in URP using ScriptableRenderFeatures
+* renders multiple passes using CommandBuffers in RenderFeatures
+* provides a simple yet effective blur, based on the Kawase blur as described in this [article](https://software.intel.com/en-us/blogs/2014/07/15/an-investigation-of-fast-real-time-gpu-based-image-blur-algorithms).
 
 
 ### Features
-* flexible downscaling
-* variable number of blur passes
-* simple demo scene and materials
+* performance friendly features,
+  * variable number of blur passes
+  * downscaling
+* selection of materials
+  * lit / unlit
+  * UI-friendly with masks
+* easy package installation
 
 
 ### Download
