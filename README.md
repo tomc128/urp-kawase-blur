@@ -1,4 +1,7 @@
 ## Kawase Blur
+
+Please note, the original creator of this repository (sebastianhein) did not license it. This means the code is technically copyrighted, so should not be used in a commercial environment.
+
 ### Renderer Extension for Universal Render Pipeline
 
 This is a experimental RenderFeature implementation that:
