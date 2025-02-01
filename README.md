@@ -42,4 +42,4 @@ Masked shader variants can be used to blur UI elements with rounded corners prop
 
 
 Blur originally developed with Unity 2019.3.
-Demo scene & project restructure done with Unity 2020.1.
+Demo scene & project restructure done with Unity 2022.3.
